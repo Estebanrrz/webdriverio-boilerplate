@@ -10,8 +10,11 @@
     "test": "node_modules/.bin/wdio examples/Amazon/wdio.conf.js",
     "test:e2e": "node_modules/.bin/wdio examples/Amazon/wdio.conf.js --suite e2e",
     "test:integration": "node_modules/.bin/wdio examples/Amazon/wdio.conf.js --suite integration",
-    "test:local": "node_modules/.bin/wdio examples/Amazon/wdio.conf.local.js --suite dev"
-  },
+    "test:local": "node_modules/.bin/wdio examples/Amazon/wdio.conf.local.js --suite dev",
+    "cnn": "node_modules/.bin/wdio examples/CNN/wdio.conf.localcnn.js",
+    "cnn:bs": "node_modules/.bin/wdio examples/CNN/wdio.conf.browserstack.js"
+                                   
+    },
   "dependencies": {
     "@wdio/browserstack-service": "^6.1.15",
     "@wdio/cli": "^6.1.15",
